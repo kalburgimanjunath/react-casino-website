@@ -1,11 +1,20 @@
-import React from "react";
-import "./style.css";
+import React from 'react';
+import './style.css';
 
 export default function App() {
   return (
     <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
+      <ul>
+        <li>Menu</li>
+        <li>Search</li>
+        <li>Banner</li>
+        <li>Popular Games</li>
+        <li>New Games</li>
+        <li>Promotions</li>
+        <li>All Games</li>
+        <li>Tournaments</li>
+        <li>Footer</li>
+      </ul>
     </div>
   );
 }
